@@ -27,7 +27,7 @@ console.log('[INPUT] TARGET_URL =', TARGET_URL);
 
 async function scrapeToTxt(limit, targetUrl) {
   const browser = await puppeteer.launch({
-    headless: true,  // CF/IIS altında headless önerilir
+    headless: false, 
     executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
     args: ['--no-sandbox','--disable-setuid-sandbox','--disable-gpu']
   });

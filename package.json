@@ -1,0 +1,13 @@
+{
+  "name": "googlemaps-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js", 
+    "run": "node trigger.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
